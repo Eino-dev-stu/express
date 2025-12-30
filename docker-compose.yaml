@@ -1,9 +1,9 @@
 version: "3.9"
 
 services:
-  express-app:
+  express:
     image: eino600/express:latest
-    container_name: express-app
+    container_name: express
     labels:
       - "com.centurylinklabs.watchtower.enable=true"
     ports:
