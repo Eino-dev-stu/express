@@ -27,4 +27,4 @@ jobs:
           context: .
           file: .
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/express:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/express:latest
